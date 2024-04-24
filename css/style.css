@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-size: 8px;
+}
+
+.section-container {
+  background-color: #f9f7f7;
+  width: 35%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-first {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.section-first > h2 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.section-input {
+  font-size: 12px;
+}
+
+.section-input > input {
+  width: 48%;
+  height: 30px;
+  border: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-button {
+  display: flex;
+  margin-top: 4px;
+  gap: 8px;
+}
+
+button {
+  font-size: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: mediumpurple;
+  color: #f9f7f7;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: mediumslateblue;
+}
+
+.section-second {
+  font-size: 12px;
+}
+
+.result {
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 50%;
+  height: 35px;
+  border: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-third {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+#formula {
+  margin-top: -6px;
+}
+
+.section-fourth {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.description {
+  color: purple;
+}
+
+.symbol-suhu {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#f-to-c {
+  display: none;
+}
